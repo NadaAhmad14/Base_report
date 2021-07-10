@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<style>
+body {
+    background-color:#66ccff;
+}
+
+</style>
+<form>
+
+<style>
+div.a {
+ text-align: center;
+ font-size:77%;
+}
+</style>
+
+<div class="a">
+<div class="slidecontainer">
+
+<h1>لوحة التحكم بالروبوت</h1>
+<p>motor1</p>
+<input type="range" min="90" max="180" value="100" class="slider" id="myRange">
+<p>Value: <span id="demo"></span>
+</p>
+
+<p>motor2</p>
+<input type="range" min="90" max="180" value="100" class="slider1" id="myRange1">
+<p>Value: <span id="demo1"></span>
+</p>
+
+<p>motor3</p>
+<input type="range" min="90" max="180" value="100" class="slider2" id="myRange2">
+<p>Value: <span id="demo2"></span>
+</p>
+
+<p>motor4</p>
+<input type="range" min="90" max="180" value="100" class="slider3" id="myRange3">
+<p>Value: <span id="demo3"></span>
+</p>
+
+<p>motor5</p>
+<input type="range" min="90" max="180" value="100" class="slider4" id="myRange4">
+<p>Value: <span id="demo4"></span>
+</p>
+
+<p>motor6</p>
+<input type="range" min="90" max="180" value="100" class="slider5" id="myRange5">
+<p>Value: <span id="demo5"></span>
+</p>
+
+</div>
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+<script>
+var slider1 = document.getElementById("myRange1");
+var output1 = document.getElementById("demo1");
+output1.innerHTML = slider1.value;
+
+slider1.oninput = function() {
+  output1.innerHTML = this.value;
+}
+</script>
+<script>
+var slider2 = document.getElementById("myRange2");
+var output2 = document.getElementById("demo2");
+output2.innerHTML = slider2.value;
+
+slider2.oninput = function() {
+  output2.innerHTML = this.value;
+}
+</script>
+<script>
+var slider3 = document.getElementById("myRange3");
+var output3 = document.getElementById("demo3");
+output3.innerHTML = slider3.value;
+
+slider3.oninput = function() {
+  output3.innerHTML = this.value;
+}
+</script>
+<script>
+var slider4 = document.getElementById("myRange4");
+var output4 = document.getElementById("demo4");
+output4.innerHTML = slider4.value;
+
+slider4.oninput = function() {
+  output4.innerHTML = this.value;
+}
+</script>
+<script>
+var slider5 = document.getElementById("myRange5");
+var output5 = document.getElementById("demo5");
+output5.innerHTML = slider5.value;
+
+slider5.oninput = function() {
+  output5.innerHTML = this.value;
+}
+
+</script>
+
+<style>
+div.v{
+text-bottom:left;
+}
+</style>
+<div class="v">
+<button type="submit" value="Submit" name="Run" >Run</button>
+
+<button type="submit" value="Submit" name="save" >save</button>
+
+</div>
+</div>
+</form>
+</body>
+</html
+
+
+
